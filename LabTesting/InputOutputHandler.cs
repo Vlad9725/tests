@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LabTesting
+{
+    class InputOutputHandler
+    {
+        public static bool isDev = true;
+
+        public static int[] ConvertStringToArray(string numbers, int size)
+        {
+            int[] data = new int[size];
+            string[] values = numbers.Split(' ');
+
+            if (!isDev && values.Length != 10)
+                throw new Exception("Неверный ввод, вы должны ввести 10 чисел!");
+
+            for (int i = 0; i < values.Length; i++)
+            {
+                try
+                {
+                    data[i] = int.Parse(values[i]);
+                }
+                catch
+                {
+                    throw new Exception("В строке обнаружены недопустимые символы либо она незначащая!");
+                }
+
+                if (!isDev)
+                {
+                    if (data[i] < 0)
+                        throw new Exception("Неверный ввод, отрицательные числа запрещены!");
+                    else if (data[i] < 1000 || data[i] > 9999)
+                        throw new Exception("Неверный ввод, не все числа четырёхзначные!");
+                }
+            }
+
+            return data;
+        }
+
+        public static string ConvertArrayToString(ref int[] array)
+        {
+            string answer = "";
+            for (int i = 0; i < array.Length; i++)
+            {
+                answer += array[i].ToString() + " "; ;
+            }
+            return answer;
+        }
+    }
+}
