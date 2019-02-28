@@ -20,7 +20,6 @@ namespace LabTesting
     /// </summary>
     public partial class MainWindow : Window
     {
-        private string enteredString = "";
         private char ratio = '>';
         public MainWindow()
         {
@@ -43,10 +42,9 @@ namespace LabTesting
                 answerTextBox.Text = ex.Message;
                 return;
             }
+            
 
-            ArrayHandler arrayHandler = new ArrayHandler(data, ratio);
-
-            Answer answer = arrayHandler.GetArray();
+            Answer answer = ArrayHandler.GetArray(data, ratio);
             if (answer.log != "Error")
             {
                 outputString = InputOutputHandler.ConvertArrayToString(ref answer.array);

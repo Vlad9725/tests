@@ -1,0 +1,17 @@
+C:\Users\kek\Desktop\Testing\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\kek\Desktop\Testing\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\kek\Desktop\Testing\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\kek\Desktop\Testing\tests\UnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\kek\Desktop\Testing\tests\UnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\kek\Desktop\Testing\tests\UnitTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\kek\Desktop\Testing\tests\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\kek\Desktop\Testing\tests\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\kek\Desktop\Testing\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\kek\Desktop\Testing\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\kek\Desktop\Testing\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\kek\Desktop\Testing\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\kek\Desktop\Testing\tests\UnitTest\obj\Debug\UnitTest.csprojAssemblyReference.cache
+C:\Users\kek\Desktop\Testing\tests\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\kek\Desktop\Testing\tests\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
+C:\Users\kek\Desktop\Testing\tests\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\kek\Desktop\Testing\tests\UnitTest\obj\Debug\UnitTest.pdb
