@@ -43,7 +43,6 @@ C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting.csproj.Genera
 C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting.csproj.CoreCompileInputs.cache
 C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting.exe
 C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting.pdb
-<<<<<<< HEAD
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\bin\Debug\LabTesting.exe.config
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\bin\Debug\LabTesting.exe
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\bin\Debug\LabTesting.pdb
@@ -59,5 +58,3 @@ A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting.csproj
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting.csproj.CoreCompileInputs.cache
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting.exe
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting.pdb
-=======
->>>>>>> 530faa252f919dd2a15ad234253687a439d26c1e

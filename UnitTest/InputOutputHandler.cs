@@ -44,7 +44,6 @@ namespace LabTesting
         public static string ConvertArrayToString(ref int[] array)
         {
             string answer = "";
-<<<<<<< HEAD
 
             if (array == null)
                 return answer;
@@ -52,11 +51,6 @@ namespace LabTesting
             for (int i = 0; i < array.Length; i++)
             {
                 answer += array[i].ToString() + " ";
-=======
-            for (int i = 0; i < array.Length; i++)
-            {
-                answer += array[i].ToString() + " "; ;
->>>>>>> 530faa252f919dd2a15ad234253687a439d26c1e
             }
             return answer;
         }
