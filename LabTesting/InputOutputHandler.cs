@@ -15,8 +15,8 @@ namespace LabTesting
             int[] data = new int[size];
             string[] values = numbers.Split(' ');
 
-            if (!isDev && values.Length != 10)
-                throw new Exception("Неверный ввод, вы должны ввести 10 чисел!");
+            if (!isDev && values.Length != size)
+                throw new Exception("Неверный ввод, вы должны ввести "+size+" чисел!");
 
             for (int i = 0; i < values.Length; i++)
             {

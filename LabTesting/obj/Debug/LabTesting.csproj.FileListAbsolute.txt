@@ -28,3 +28,33 @@ A:\LABS_AND_PROJECTS\Tests Part 2\LabTesting\LabTesting\obj\Debug\LabTesting.csp
 A:\LABS_AND_PROJECTS\Tests Part 2\LabTesting\LabTesting\obj\Debug\LabTesting.csproj.CoreCompileInputs.cache
 A:\LABS_AND_PROJECTS\Tests Part 2\LabTesting\LabTesting\obj\Debug\LabTesting.exe
 A:\LABS_AND_PROJECTS\Tests Part 2\LabTesting\LabTesting\obj\Debug\LabTesting.pdb
+C:\Users\kek\Desktop\Testing\tests\LabTesting\bin\Debug\LabTesting.exe.config
+C:\Users\kek\Desktop\Testing\tests\LabTesting\bin\Debug\LabTesting.exe
+C:\Users\kek\Desktop\Testing\tests\LabTesting\bin\Debug\LabTesting.pdb
+C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting.csprojAssemblyReference.cache
+C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\MainWindow.g.cs
+C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\App.g.cs
+C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting_MarkupCompile.cache
+C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting_MarkupCompile.lref
+C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\MainWindow.baml
+C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting.g.resources
+C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting.Properties.Resources.resources
+C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting.csproj.GenerateResource.cache
+C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting.csproj.CoreCompileInputs.cache
+C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting.exe
+C:\Users\kek\Desktop\Testing\tests\LabTesting\obj\Debug\LabTesting.pdb
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\bin\Debug\LabTesting.exe.config
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\bin\Debug\LabTesting.exe
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\bin\Debug\LabTesting.pdb
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting.csprojAssemblyReference.cache
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\MainWindow.g.cs
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\App.g.cs
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting_MarkupCompile.cache
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting_MarkupCompile.lref
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\MainWindow.baml
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting.g.resources
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting.Properties.Resources.resources
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting.csproj.GenerateResource.cache
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting.csproj.CoreCompileInputs.cache
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting.exe
+A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\LabTesting\obj\Debug\LabTesting.pdb
