@@ -15,6 +15,7 @@ C:\Users\kek\Desktop\Testing\tests\UnitTest\obj\Debug\UnitTest.csproj.CoreCompil
 C:\Users\kek\Desktop\Testing\tests\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
 C:\Users\kek\Desktop\Testing\tests\UnitTest\obj\Debug\UnitTest.dll
 C:\Users\kek\Desktop\Testing\tests\UnitTest\obj\Debug\UnitTest.pdb
+<<<<<<< HEAD
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -29,3 +30,5 @@ A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\UnitTest\obj\Debug\UnitTest.csproj.Cor
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\UnitTest\obj\Debug\UnitTest.dll
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\UnitTest\obj\Debug\UnitTest.pdb
+=======
+>>>>>>> 530faa252f919dd2a15ad234253687a439d26c1e
