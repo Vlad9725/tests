@@ -1,0 +1,5 @@
+C:\Users\kek\Desktop\Lab\tests\.vs\LabTesting\lut\0\b\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+C:\Users\kek\Desktop\Lab\tests\.vs\LabTesting\lut\0\i\CodedUITestProject1\Debug\CodedUITestProject1.csprojAssemblyReference.cache
+C:\Users\kek\Desktop\Lab\tests\.vs\LabTesting\lut\0\i\CodedUITestProject1\Debug\CodedUITestProject1.csproj.CoreCompileInputs.cache
+C:\Users\kek\Desktop\Lab\tests\.vs\LabTesting\lut\0\i\CodedUITestProject1\Debug\CodedUITestProject1.csproj.CopyComplete
+C:\Users\kek\Desktop\Lab\tests\.vs\LabTesting\lut\0\i\CodedUITestProject1\Debug\CodedUITestProject1.dll

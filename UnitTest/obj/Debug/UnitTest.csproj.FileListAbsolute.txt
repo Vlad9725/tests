@@ -29,3 +29,17 @@ A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\UnitTest\obj\Debug\UnitTest.csproj.Cor
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\UnitTest\obj\Debug\UnitTest.dll
 A:\LABS_AND_PROJECTS\Tests Part 2\SyncLab\UnitTest\obj\Debug\UnitTest.pdb
+C:\Users\kek\Desktop\Lab\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\kek\Desktop\Lab\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\kek\Desktop\Lab\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\kek\Desktop\Lab\tests\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\kek\Desktop\Lab\tests\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\kek\Desktop\Lab\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\kek\Desktop\Lab\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\kek\Desktop\Lab\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\kek\Desktop\Lab\tests\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\kek\Desktop\Lab\tests\UnitTest\obj\Debug\UnitTest.csprojAssemblyReference.cache
+C:\Users\kek\Desktop\Lab\tests\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\kek\Desktop\Lab\tests\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
+C:\Users\kek\Desktop\Lab\tests\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\kek\Desktop\Lab\tests\UnitTest\obj\Debug\UnitTest.pdb
