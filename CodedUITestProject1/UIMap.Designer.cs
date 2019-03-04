@@ -44,19 +44,19 @@ namespace CodedUITestProject1
             #endregion
 
             // Double-Click 'Имя' text box
-            Mouse.DoubleClick(uIИмяEdit, new Point(60, 10));
+            Mouse.DoubleClick(uIИмяEdit, new Point(44, 9));
 
             // Type '1234 6543 2004 1231 7654 4355 5467 5435 6578 1111' in 'fillTextBox' text box
             uIFillTextBoxEdit.Text = this.RMethod1Params.UIFillTextBoxEditText;
 
             // Click 'Больше' radio button
-            Mouse.Click(uIБольшеRadioButton, new Point(7, 4));
+            Mouse.Click(uIБольшеRadioButton, new Point(2, 8));
 
             // Click 'Выполнить' button
-            Mouse.Click(uIВыполнитьButton, new Point(91, 12));
+            Mouse.Click(uIВыполнитьButton, new Point(70, 13));
 
             // Click 'answerTextBox' text box
-            Mouse.Click(uIAnswerTextBoxEdit, new Point(183, 14));
+            Mouse.Click(uIAnswerTextBoxEdit, new Point(137, 19));
         }
         
         /// <summary>
@@ -65,33 +65,23 @@ namespace CodedUITestProject1
         public void RMethod2()
         {
             #region Variable Declarations
-            WpfText uIВведите10четырехзначText = this.UILabWindow.UIВведите10четырехзначText;
             WpfEdit uIFillTextBoxEdit = this.UILabWindow.UIFillTextBoxEdit;
             WpfRadioButton uIМеньшеRadioButton = this.UILabWindow.UIМеньшеRadioButton;
             WpfButton uIВыполнитьButton = this.UILabWindow.UIВыполнитьButton;
             WpfEdit uIAnswerTextBoxEdit = this.UILabWindow.UIAnswerTextBoxEdit;
             #endregion
 
-            // Click 'Введите 10 четырехзначных элементов' label
-            Mouse.Click(uIВведите10четырехзначText, new Point(323, 21));
-
-            // Type '' in 'fillTextBox' text box
-            uIFillTextBoxEdit.Text = this.RMethod2Params.UIFillTextBoxEditText;
-
-            // Click 'Введите 10 четырехзначных элементов' label
-            Mouse.Click(uIВведите10четырехзначText, new Point(62, 31));
-
             // Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1212' in 'fillTextBox' text box
-            uIFillTextBoxEdit.Text = this.RMethod2Params.UIFillTextBoxEditText1;
+            uIFillTextBoxEdit.Text = this.RMethod2Params.UIFillTextBoxEditText;
 
             // Select 'Меньше' radio button
             uIМеньшеRadioButton.Selected = this.RMethod2Params.UIМеньшеRadioButtonSelected;
 
             // Click 'Выполнить' button
-            Mouse.Click(uIВыполнитьButton, new Point(96, 15));
+            Mouse.Click(uIВыполнитьButton, new Point(80, 9));
 
             // Click 'answerTextBox' text box
-            Mouse.Click(uIAnswerTextBoxEdit, new Point(147, 17));
+            Mouse.Click(uIAnswerTextBoxEdit, new Point(115, 15));
         }
         
         /// <summary>
@@ -106,31 +96,38 @@ namespace CodedUITestProject1
             WpfButton uIВыполнитьButton = this.UILabWindow.UIВыполнитьButton;
             WpfEdit uIAnswerTextBoxEdit = this.UILabWindow.UIAnswerTextBoxEdit;
             WinButton uIЗакрытьButton = this.UILabWindow12.UIЗакрытьButton;
+            WinButton uIЗакрытьButton1 = this.UIНожницыWindow.UIНожницыTitleBar.UIЗакрытьButton;
             #endregion
 
             // Click 'Введите 10 четырехзначных элементов' label
-            Mouse.Click(uIВведите10четырехзначText, new Point(257, 18));
+            Mouse.Click(uIВведите10четырехзначText, new Point(234, 32));
 
-            // Click 'Введите 10 четырехзначных элементов' label
-            Mouse.Click(uIВведите10четырехзначText, new Point(257, 27));
-
-            // Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1212' in 'fillTextBox' text box
+            // Type '' in 'fillTextBox' text box
             uIFillTextBoxEdit.Text = this.RMethod3Params.UIFillTextBoxEditText;
 
-            // Click 'fillTextBox' text box
-            Mouse.Click(uIFillTextBoxEdit, new Point(306, 21));
+            // Click 'Введите 10 четырехзначных элементов' label
+            Mouse.Click(uIВведите10четырехзначText, new Point(234, 32));
+
+            // Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1212' in 'fillTextBox' text box
+            uIFillTextBoxEdit.Text = this.RMethod3Params.UIFillTextBoxEditText1;
 
             // Select 'Больше' radio button
             uIБольшеRadioButton.Selected = this.RMethod3Params.UIБольшеRadioButtonSelected;
 
             // Click 'Выполнить' button
-            Mouse.Click(uIВыполнитьButton, new Point(59, 9));
+            Mouse.Click(uIВыполнитьButton, new Point(61, 11));
 
             // Click 'answerTextBox' text box
-            Mouse.Click(uIAnswerTextBoxEdit, new Point(60, 11));
+            Mouse.Click(uIAnswerTextBoxEdit, new Point(81, 6));
 
             // Click 'Закрыть' button
-            Mouse.Click(uIЗакрытьButton, new Point(16, 14));
+            Mouse.Click(uIЗакрытьButton, new Point(15, 16));
+
+            // Launch '%SystemRoot%\System32\SnippingTool.exe'
+            ApplicationUnderTest uIНожницыWindow = ApplicationUnderTest.Launch(this.RMethod3Params.UIНожницыWindowExePath, this.RMethod3Params.UIНожницыWindowAlternateExePath);
+
+            // Click 'Закрыть' button
+            Mouse.Click(uIЗакрытьButton1, new Point(21, 8));
         }
         
         #region Properties
@@ -241,6 +238,18 @@ namespace CodedUITestProject1
                 return this.mUILabWindow12;
             }
         }
+        
+        public UIНожницыWindow UIНожницыWindow
+        {
+            get
+            {
+                if ((this.mUIНожницыWindow == null))
+                {
+                    this.mUIНожницыWindow = new UIНожницыWindow();
+                }
+                return this.mUIНожницыWindow;
+            }
+        }
         #endregion
         
         #region Fields
@@ -261,6 +270,8 @@ namespace CodedUITestProject1
         private UILabWindow11 mUILabWindow11;
         
         private UILabWindow12 mUILabWindow12;
+        
+        private UIНожницыWindow mUIНожницыWindow;
         #endregion
     }
     
@@ -288,14 +299,9 @@ namespace CodedUITestProject1
         
         #region Fields
         /// <summary>
-        /// Type '' in 'fillTextBox' text box
-        /// </summary>
-        public string UIFillTextBoxEditText = "";
-        
-        /// <summary>
         /// Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1212' in 'fillTextBox' text box
         /// </summary>
-        public string UIFillTextBoxEditText1 = "1009 2345 1879 2081 1699 3456 9870 5467 1212 1212";
+        public string UIFillTextBoxEditText = "1009 2345 1879 2081 1699 3456 9870 5467 1212 1212";
         
         /// <summary>
         /// Select 'Меньше' radio button
@@ -313,14 +319,29 @@ namespace CodedUITestProject1
         
         #region Fields
         /// <summary>
+        /// Type '' in 'fillTextBox' text box
+        /// </summary>
+        public string UIFillTextBoxEditText = "";
+        
+        /// <summary>
         /// Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1212' in 'fillTextBox' text box
         /// </summary>
-        public string UIFillTextBoxEditText = "1009 2345 1879 2081 1699 3456 9870 5467 1212 1212";
+        public string UIFillTextBoxEditText1 = "1009 2345 1879 2081 1699 3456 9870 5467 1212 1212";
         
         /// <summary>
         /// Select 'Больше' radio button
         /// </summary>
         public bool UIБольшеRadioButtonSelected = true;
+        
+        /// <summary>
+        /// Launch '%SystemRoot%\System32\SnippingTool.exe'
+        /// </summary>
+        public string UIНожницыWindowExePath = "C:\\Windows\\System32\\SnippingTool.exe";
+        
+        /// <summary>
+        /// Launch '%SystemRoot%\System32\SnippingTool.exe'
+        /// </summary>
+        public string UIНожницыWindowAlternateExePath = "%SystemRoot%\\System32\\SnippingTool.exe";
         #endregion
     }
     
@@ -812,6 +833,73 @@ namespace CodedUITestProject1
                     #region Search Criteria
                     this.mUIЗакрытьButton.SearchProperties[WinButton.PropertyNames.Name] = "Закрыть";
                     this.mUIЗакрытьButton.WindowTitles.Add("Lab");
+                    #endregion
+                }
+                return this.mUIЗакрытьButton;
+            }
+        }
+        #endregion
+        
+        #region Fields
+        private WinButton mUIЗакрытьButton;
+        #endregion
+    }
+    
+    [GeneratedCode("Coded UITest Builder", "15.0.26208.0")]
+    public class UIНожницыWindow : WinWindow
+    {
+        
+        public UIНожницыWindow()
+        {
+            #region Search Criteria
+            this.SearchProperties[WinWindow.PropertyNames.Name] = "Ножницы";
+            this.SearchProperties[WinWindow.PropertyNames.ClassName] = "Microsoft-Windows-SnipperToolbar";
+            this.WindowTitles.Add("Ножницы");
+            #endregion
+        }
+        
+        #region Properties
+        public UIНожницыTitleBar UIНожницыTitleBar
+        {
+            get
+            {
+                if ((this.mUIНожницыTitleBar == null))
+                {
+                    this.mUIНожницыTitleBar = new UIНожницыTitleBar(this);
+                }
+                return this.mUIНожницыTitleBar;
+            }
+        }
+        #endregion
+        
+        #region Fields
+        private UIНожницыTitleBar mUIНожницыTitleBar;
+        #endregion
+    }
+    
+    [GeneratedCode("Coded UITest Builder", "15.0.26208.0")]
+    public class UIНожницыTitleBar : WinTitleBar
+    {
+        
+        public UIНожницыTitleBar(UITestControl searchLimitContainer) : 
+                base(searchLimitContainer)
+        {
+            #region Search Criteria
+            this.WindowTitles.Add("Ножницы");
+            #endregion
+        }
+        
+        #region Properties
+        public WinButton UIЗакрытьButton
+        {
+            get
+            {
+                if ((this.mUIЗакрытьButton == null))
+                {
+                    this.mUIЗакрытьButton = new WinButton(this);
+                    #region Search Criteria
+                    this.mUIЗакрытьButton.SearchProperties[WinButton.PropertyNames.Name] = "Закрыть";
+                    this.mUIЗакрытьButton.WindowTitles.Add("Ножницы");
                     #endregion
                 }
                 return this.mUIЗакрытьButton;

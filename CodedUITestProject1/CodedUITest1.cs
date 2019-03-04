@@ -25,18 +25,24 @@ namespace CodedUITestProject1
         [TestMethod]
         public void CodedUINoPrimeNumbers()
         {
+
             this.UIMap.RMethod1();
+
         }
 
         [TestMethod]
         public void CodedUISmaller()
         {
+
             this.UIMap.RMethod2();
+
         }
         [TestMethod]
         public void CodedUIGreater()
         {
+
             this.UIMap.RMethod3();
+
         }
         #region Additional test attributes
 
