@@ -31,128 +31,32 @@ namespace CodedUITestProject1
     {
         
         /// <summary>
-        /// RecordedMethod1 - Use 'RecordedMethod1Params' to pass parameters into this method.
-        /// </summary>
-        public void RecordedMethod1()
-        {
-            #region Variable Declarations
-            WinEdit uIИмяEdit = this.UIDebugWindow.UIItemWindow.UILabTestingexeListItem.UIИмяEdit;
-            WpfText uIВведите10четырехзначText = this.UILabWindow.UIВведите10четырехзначText;
-            WpfEdit uIFillTextBoxEdit = this.UILabWindow.UIFillTextBoxEdit;
-            WpfRadioButton uIБольшеRadioButton = this.UILabWindow.UIБольшеRadioButton;
-            WpfButton uIВыполнитьButton = this.UILabWindow.UIВыполнитьButton;
-            WpfEdit uIAnswerTextBoxEdit = this.UILabWindow.UIAnswerTextBoxEdit;
-            #endregion
-
-            // Double-Click 'Имя' text box
-            Mouse.DoubleClick(uIИмяEdit, new Point(31, 12));
-
-            // Click 'Введите 10 четырехзначных элементов' label
-            Mouse.Click(uIВведите10четырехзначText, new Point(232, 29));
-
-            // Type '1111 2222 3333 4444 5555 6666 7777 8888 9999 1000' in 'fillTextBox' text box
-            uIFillTextBoxEdit.Text = this.RecordedMethod1Params.UIFillTextBoxEditText;
-
-            // Click 'Больше' radio button
-            Mouse.Click(uIБольшеRadioButton, new Point(45, 6));
-
-            // Click 'Выполнить' button
-            Mouse.Click(uIВыполнитьButton, new Point(52, 9));
-
-            // Click 'answerTextBox' text box
-            Mouse.Click(uIAnswerTextBoxEdit, new Point(264, 15));
-        }
-        
-        /// <summary>
-        /// RecordedMethod2 - Use 'RecordedMethod2Params' to pass parameters into this method.
-        /// </summary>
-        public void RecordedMethod2()
-        {
-            #region Variable Declarations
-            WpfText uIВведите10четырехзначText = this.UILabWindow.UIВведите10четырехзначText;
-            WpfEdit uIFillTextBoxEdit = this.UILabWindow.UIFillTextBoxEdit;
-            WpfRadioButton uIБольшеRadioButton = this.UILabWindow.UIБольшеRadioButton;
-            WpfButton uIВыполнитьButton = this.UILabWindow.UIВыполнитьButton;
-            WpfEdit uIAnswerTextBoxEdit = this.UILabWindow.UIAnswerTextBoxEdit;
-            #endregion
-
-            // Click 'Введите 10 четырехзначных элементов' label
-            Mouse.Click(uIВведите10четырехзначText, new Point(297, 29));
-
-            // Type '3221' in 'fillTextBox' text box
-            uIFillTextBoxEdit.Text = this.RecordedMethod2Params.UIFillTextBoxEditText;
-
-            // Click 'Больше' radio button
-            Mouse.Click(uIБольшеRadioButton, new Point(14, 6));
-
-            // Click 'Выполнить' button
-            Mouse.Click(uIВыполнитьButton, new Point(111, 10));
-
-            // Click 'answerTextBox' text box
-            Mouse.Click(uIAnswerTextBoxEdit, new Point(91, 17));
-        }
-        
-        /// <summary>
-        /// RecordedMethod3 - Use 'RecordedMethod3Params' to pass parameters into this method.
-        /// </summary>
-        public void RecordedMethod3()
-        {
-            #region Variable Declarations
-            WinEdit uIИмяEdit = this.UIDebugWindow.UIItemWindow.UILabTestingexeListItem.UIИмяEdit;
-            WpfEdit uIFillTextBoxEdit = this.UILabWindow.UIFillTextBoxEdit;
-            WpfRadioButton uIМеньшеRadioButton = this.UILabWindow.UIМеньшеRadioButton;
-            WpfButton uIВыполнитьButton = this.UILabWindow.UIВыполнитьButton;
-            WpfEdit uIAnswerTextBoxEdit = this.UILabWindow.UIAnswerTextBoxEdit;
-            #endregion
-
-            // Последнее действие мыши не записано.
-
-            // Double-Click 'Имя' text box
-            Mouse.DoubleClick(uIИмяEdit, new Point(25, 10));
-
-            // Double-Click 'Имя' text box
-            Mouse.DoubleClick(uIИмяEdit, new Point(78, 14));
-
-            // Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 121' in 'fillTextBox' text box
-            uIFillTextBoxEdit.Text = this.RecordedMethod3Params.UIFillTextBoxEditText;
-
-            // Select 'Меньше' radio button
-            uIМеньшеRadioButton.Selected = this.RecordedMethod3Params.UIМеньшеRadioButtonSelected;
-
-            // Click 'Выполнить' button
-            Mouse.Click(uIВыполнитьButton, new Point(88, 11));
-
-            // Click 'answerTextBox' text box
-            Mouse.Click(uIAnswerTextBoxEdit, new Point(95, 14));
-        }
-        
-        /// <summary>
         /// RMethod1 - Use 'RMethod1Params' to pass parameters into this method.
         /// </summary>
         public void RMethod1()
         {
             #region Variable Declarations
             WinEdit uIИмяEdit = this.UIDebugWindow.UIItemWindow.UILabTestingexeListItem.UIИмяEdit;
-            WpfEdit uIFillTextBoxEdit = this.UILabWindow1.UIFillTextBoxEdit;
-            WpfRadioButton uIБольшеRadioButton = this.UILabWindow1.UIБольшеRadioButton;
-            WpfButton uIВыполнитьButton = this.UILabWindow1.UIВыполнитьButton;
-            WpfEdit uIAnswerTextBoxEdit = this.UILabWindow1.UIAnswerTextBoxEdit;
+            WpfEdit uIFillTextBoxEdit = this.UILabWindow.UIFillTextBoxEdit;
+            WpfRadioButton uIБольшеRadioButton = this.UILabWindow.UIБольшеRadioButton;
+            WpfButton uIВыполнитьButton = this.UILabWindow.UIВыполнитьButton;
+            WpfEdit uIAnswerTextBoxEdit = this.UILabWindow.UIAnswerTextBoxEdit;
             #endregion
 
             // Double-Click 'Имя' text box
-            Mouse.DoubleClick(uIИмяEdit, new Point(18, 11));
+            Mouse.DoubleClick(uIИмяEdit, new Point(60, 10));
 
             // Type '1234 6543 2004 1231 7654 4355 5467 5435 6578 1111' in 'fillTextBox' text box
             uIFillTextBoxEdit.Text = this.RMethod1Params.UIFillTextBoxEditText;
 
             // Click 'Больше' radio button
-            Mouse.Click(uIБольшеRadioButton, new Point(35, 9));
+            Mouse.Click(uIБольшеRadioButton, new Point(7, 4));
 
             // Click 'Выполнить' button
-            Mouse.Click(uIВыполнитьButton, new Point(106, 8));
+            Mouse.Click(uIВыполнитьButton, new Point(91, 12));
 
             // Click 'answerTextBox' text box
-            Mouse.Click(uIAnswerTextBoxEdit, new Point(271, 18));
+            Mouse.Click(uIAnswerTextBoxEdit, new Point(183, 14));
         }
         
         /// <summary>
@@ -161,46 +65,33 @@ namespace CodedUITestProject1
         public void RMethod2()
         {
             #region Variable Declarations
-            WinEdit uIИмяEdit = this.UIDebugWindow.UIItemWindow.UILabTestingexeListItem.UIИмяEdit;
-            WpfText uIВведите10четырехзначText = this.UILabWindow2.UIВведите10четырехзначText;
-            WpfEdit uIFillTextBoxEdit = this.UILabWindow2.UIFillTextBoxEdit;
-            WpfButton uIВыполнитьButton = this.UILabWindow2.UIВыполнитьButton;
-            WpfRadioButton uIМеньшеRadioButton = this.UILabWindow2.UIМеньшеRadioButton;
-            WinButton uIЗакрытьButton = this.UILabWindow11.UIЗакрытьButton;
+            WpfText uIВведите10четырехзначText = this.UILabWindow.UIВведите10четырехзначText;
+            WpfEdit uIFillTextBoxEdit = this.UILabWindow.UIFillTextBoxEdit;
+            WpfRadioButton uIМеньшеRadioButton = this.UILabWindow.UIМеньшеRadioButton;
+            WpfButton uIВыполнитьButton = this.UILabWindow.UIВыполнитьButton;
+            WpfEdit uIAnswerTextBoxEdit = this.UILabWindow.UIAnswerTextBoxEdit;
             #endregion
 
-            // Double-Click 'Имя' text box
-            Mouse.DoubleClick(uIИмяEdit, new Point(34, 12));
-
             // Click 'Введите 10 четырехзначных элементов' label
-            Mouse.Click(uIВведите10четырехзначText, new Point(262, 32));
+            Mouse.Click(uIВведите10четырехзначText, new Point(323, 21));
 
-            // Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1211' in 'fillTextBox' text box
+            // Type '' in 'fillTextBox' text box
             uIFillTextBoxEdit.Text = this.RMethod2Params.UIFillTextBoxEditText;
 
-            // Click 'Выполнить' button
-            Mouse.Click(uIВыполнитьButton, new Point(41, 14));
+            // Click 'Введите 10 четырехзначных элементов' label
+            Mouse.Click(uIВведите10четырехзначText, new Point(62, 31));
+
+            // Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1212' in 'fillTextBox' text box
+            uIFillTextBoxEdit.Text = this.RMethod2Params.UIFillTextBoxEditText1;
 
             // Select 'Меньше' radio button
             uIМеньшеRadioButton.Selected = this.RMethod2Params.UIМеньшеRadioButtonSelected;
 
-            // Click 'Закрыть' button
-            Mouse.Click(uIЗакрытьButton, new Point(24, 12));
-
-            // Double-Click 'Имя' text box
-            Mouse.DoubleClick(uIИмяEdit, new Point(63, 10));
-
-            // Click 'Введите 10 четырехзначных элементов' label
-            Mouse.Click(uIВведите10четырехзначText, new Point(145, 29));
-
-            // Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1211' in 'fillTextBox' text box
-            uIFillTextBoxEdit.Text = this.RMethod2Params.UIFillTextBoxEditText1;
-
-            // Select 'Меньше' radio button
-            uIМеньшеRadioButton.Selected = this.RMethod2Params.UIМеньшеRadioButtonSelected1;
-
             // Click 'Выполнить' button
-            Mouse.Click(uIВыполнитьButton, new Point(75, 12));
+            Mouse.Click(uIВыполнитьButton, new Point(96, 15));
+
+            // Click 'answerTextBox' text box
+            Mouse.Click(uIAnswerTextBoxEdit, new Point(147, 17));
         }
         
         /// <summary>
@@ -209,62 +100,40 @@ namespace CodedUITestProject1
         public void RMethod3()
         {
             #region Variable Declarations
-            WinEdit uIИмяEdit = this.UIDebugWindow.UIItemWindow.UILabTestingexeListItem.UIИмяEdit;
-            WpfEdit uIFillTextBoxEdit = this.UILabWindow2.UIFillTextBoxEdit;
-            WpfButton uIВыполнитьButton = this.UILabWindow2.UIВыполнитьButton;
-            WpfEdit uIAnswerTextBoxEdit = this.UILabWindow2.UIAnswerTextBoxEdit;
+            WpfText uIВведите10четырехзначText = this.UILabWindow.UIВведите10четырехзначText;
+            WpfEdit uIFillTextBoxEdit = this.UILabWindow.UIFillTextBoxEdit;
+            WpfRadioButton uIБольшеRadioButton = this.UILabWindow.UIБольшеRadioButton;
+            WpfButton uIВыполнитьButton = this.UILabWindow.UIВыполнитьButton;
+            WpfEdit uIAnswerTextBoxEdit = this.UILabWindow.UIAnswerTextBoxEdit;
+            WinButton uIЗакрытьButton = this.UILabWindow12.UIЗакрытьButton;
             #endregion
 
-            // Double-Click 'Имя' text box
-            Mouse.DoubleClick(uIИмяEdit, new Point(33, 12));
+            // Click 'Введите 10 четырехзначных элементов' label
+            Mouse.Click(uIВведите10четырехзначText, new Point(257, 18));
 
-            // Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 121' in 'fillTextBox' text box
+            // Click 'Введите 10 четырехзначных элементов' label
+            Mouse.Click(uIВведите10четырехзначText, new Point(257, 27));
+
+            // Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1212' in 'fillTextBox' text box
             uIFillTextBoxEdit.Text = this.RMethod3Params.UIFillTextBoxEditText;
 
+            // Click 'fillTextBox' text box
+            Mouse.Click(uIFillTextBoxEdit, new Point(306, 21));
+
+            // Select 'Больше' radio button
+            uIБольшеRadioButton.Selected = this.RMethod3Params.UIБольшеRadioButtonSelected;
+
             // Click 'Выполнить' button
-            Mouse.Click(uIВыполнитьButton, new Point(117, 17));
+            Mouse.Click(uIВыполнитьButton, new Point(59, 9));
 
             // Click 'answerTextBox' text box
-            Mouse.Click(uIAnswerTextBoxEdit, new Point(112, 8));
+            Mouse.Click(uIAnswerTextBoxEdit, new Point(60, 11));
+
+            // Click 'Закрыть' button
+            Mouse.Click(uIЗакрытьButton, new Point(16, 14));
         }
         
         #region Properties
-        public virtual RecordedMethod1Params RecordedMethod1Params
-        {
-            get
-            {
-                if ((this.mRecordedMethod1Params == null))
-                {
-                    this.mRecordedMethod1Params = new RecordedMethod1Params();
-                }
-                return this.mRecordedMethod1Params;
-            }
-        }
-        
-        public virtual RecordedMethod2Params RecordedMethod2Params
-        {
-            get
-            {
-                if ((this.mRecordedMethod2Params == null))
-                {
-                    this.mRecordedMethod2Params = new RecordedMethod2Params();
-                }
-                return this.mRecordedMethod2Params;
-            }
-        }
-        
-        public virtual RecordedMethod3Params RecordedMethod3Params
-        {
-            get
-            {
-                if ((this.mRecordedMethod3Params == null))
-                {
-                    this.mRecordedMethod3Params = new RecordedMethod3Params();
-                }
-                return this.mRecordedMethod3Params;
-            }
-        }
-        
         public virtual RMethod1Params RMethod1Params
         {
             get
@@ -360,15 +229,21 @@ namespace CodedUITestProject1
                 return this.mUILabWindow11;
             }
         }
+        
+        public UILabWindow12 UILabWindow12
+        {
+            get
+            {
+                if ((this.mUILabWindow12 == null))
+                {
+                    this.mUILabWindow12 = new UILabWindow12();
+                }
+                return this.mUILabWindow12;
+            }
+        }
         #endregion
         
         #region Fields
-        private RecordedMethod1Params mRecordedMethod1Params;
-        
-        private RecordedMethod2Params mRecordedMethod2Params;
-        
-        private RecordedMethod3Params mRecordedMethod3Params;
-        
         private RMethod1Params mRMethod1Params;
         
         private RMethod2Params mRMethod2Params;
@@ -384,56 +259,8 @@ namespace CodedUITestProject1
         private UILabWindow2 mUILabWindow2;
         
         private UILabWindow11 mUILabWindow11;
-        #endregion
-    }
-    
-    /// <summary>
-    /// Parameters to be passed into 'RecordedMethod1'
-    /// </summary>
-    [GeneratedCode("Coded UITest Builder", "15.0.26208.0")]
-    public class RecordedMethod1Params
-    {
         
-        #region Fields
-        /// <summary>
-        /// Type '1111 2222 3333 4444 5555 6666 7777 8888 9999 1000' in 'fillTextBox' text box
-        /// </summary>
-        public string UIFillTextBoxEditText = "1111 2222 3333 4444 5555 6666 7777 8888 9999 1000";
-        #endregion
-    }
-    
-    /// <summary>
-    /// Parameters to be passed into 'RecordedMethod2'
-    /// </summary>
-    [GeneratedCode("Coded UITest Builder", "15.0.26208.0")]
-    public class RecordedMethod2Params
-    {
-        
-        #region Fields
-        /// <summary>
-        /// Type '3221' in 'fillTextBox' text box
-        /// </summary>
-        public string UIFillTextBoxEditText = "3221";
-        #endregion
-    }
-    
-    /// <summary>
-    /// Parameters to be passed into 'RecordedMethod3'
-    /// </summary>
-    [GeneratedCode("Coded UITest Builder", "15.0.26208.0")]
-    public class RecordedMethod3Params
-    {
-        
-        #region Fields
-        /// <summary>
-        /// Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 121' in 'fillTextBox' text box
-        /// </summary>
-        public string UIFillTextBoxEditText = "1009 2345 1879 2081 1699 3456 9870 5467 1212 121";
-        
-        /// <summary>
-        /// Select 'Меньше' radio button
-        /// </summary>
-        public bool UIМеньшеRadioButtonSelected = true;
+        private UILabWindow12 mUILabWindow12;
         #endregion
     }
     
@@ -461,24 +288,19 @@ namespace CodedUITestProject1
         
         #region Fields
         /// <summary>
-        /// Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1211' in 'fillTextBox' text box
+        /// Type '' in 'fillTextBox' text box
         /// </summary>
-        public string UIFillTextBoxEditText = "1009 2345 1879 2081 1699 3456 9870 5467 1212 1211";
+        public string UIFillTextBoxEditText = "";
+        
+        /// <summary>
+        /// Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1212' in 'fillTextBox' text box
+        /// </summary>
+        public string UIFillTextBoxEditText1 = "1009 2345 1879 2081 1699 3456 9870 5467 1212 1212";
         
         /// <summary>
         /// Select 'Меньше' radio button
         /// </summary>
         public bool UIМеньшеRadioButtonSelected = true;
-        
-        /// <summary>
-        /// Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1211' in 'fillTextBox' text box
-        /// </summary>
-        public string UIFillTextBoxEditText1 = "1009 2345 1879 2081 1699 3456 9870 5467 1212 1211";
-        
-        /// <summary>
-        /// Select 'Меньше' radio button
-        /// </summary>
-        public bool UIМеньшеRadioButtonSelected1 = true;
         #endregion
     }
     
@@ -491,9 +313,14 @@ namespace CodedUITestProject1
         
         #region Fields
         /// <summary>
-        /// Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 121' in 'fillTextBox' text box
+        /// Type '1009 2345 1879 2081 1699 3456 9870 5467 1212 1212' in 'fillTextBox' text box
         /// </summary>
-        public string UIFillTextBoxEditText = "1009 2345 1879 2081 1699 3456 9870 5467 1212 121";
+        public string UIFillTextBoxEditText = "1009 2345 1879 2081 1699 3456 9870 5467 1212 1212";
+        
+        /// <summary>
+        /// Select 'Больше' radio button
+        /// </summary>
+        public bool UIБольшеRadioButtonSelected = true;
         #endregion
     }
     
@@ -934,6 +761,42 @@ namespace CodedUITestProject1
             this.SearchProperties[WinWindow.PropertyNames.Name] = "Lab";
             this.SearchProperties.Add(new PropertyExpression(WinWindow.PropertyNames.ClassName, "HwndWrapper", PropertyExpressionOperator.Contains));
             this.FilterProperties[WinWindow.PropertyNames.OrderOfInvocation] = "3";
+            this.WindowTitles.Add("Lab");
+            #endregion
+        }
+        
+        #region Properties
+        public WinButton UIЗакрытьButton
+        {
+            get
+            {
+                if ((this.mUIЗакрытьButton == null))
+                {
+                    this.mUIЗакрытьButton = new WinButton(this);
+                    #region Search Criteria
+                    this.mUIЗакрытьButton.SearchProperties[WinButton.PropertyNames.Name] = "Закрыть";
+                    this.mUIЗакрытьButton.WindowTitles.Add("Lab");
+                    #endregion
+                }
+                return this.mUIЗакрытьButton;
+            }
+        }
+        #endregion
+        
+        #region Fields
+        private WinButton mUIЗакрытьButton;
+        #endregion
+    }
+    
+    [GeneratedCode("Coded UITest Builder", "15.0.26208.0")]
+    public class UILabWindow12 : WinWindow
+    {
+        
+        public UILabWindow12()
+        {
+            #region Search Criteria
+            this.SearchProperties[WinWindow.PropertyNames.Name] = "Lab";
+            this.SearchProperties.Add(new PropertyExpression(WinWindow.PropertyNames.ClassName, "HwndWrapper", PropertyExpressionOperator.Contains));
             this.WindowTitles.Add("Lab");
             #endregion
         }
